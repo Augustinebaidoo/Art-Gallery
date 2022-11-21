@@ -1,2 +1,2 @@
 # Art-Gallery
-Phase one project : create an art gallery
+Phase one project : create an art gallery 
