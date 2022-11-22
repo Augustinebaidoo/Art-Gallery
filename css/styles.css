@@ -33,7 +33,6 @@ p {
 body {
   font-family: "Outfit", sans-serif;
   color: #151515;
-  /* position: sticky; */
 }
 
 button {
@@ -85,7 +84,6 @@ a button:nth-child(2) {
   display: grid;
   grid-template-columns: repeat(15, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  /* margin-bottom: 10rem; */
 }
 
 #header-grid1 {
@@ -197,11 +195,11 @@ span{
 
 .home-footer svg {
   fill: #FFFFFF;
-  transition: all 0.25s ease;
 }
 
 .home-footer svg:hover {
   fill: #D5966C;
+  transition: all 0.25s ease;
 }
 
 .footer-div:nth-child(3) {
@@ -209,7 +207,30 @@ span{
   justify-content: space-around;
 }
 
-@media screen and (max-width: 820px) {
+@media  and (max-width: 330px) {
+  .home {
+      width: 20%;
+    }
+h1{
+  font-size: 30px;
+  line-height: 30px;
+}
+h2{
+  font-size: 20px;
+  line-height: 20px;
+}
+h3 {
+  font-size: 15px;
+  line-height: 15px;
+}
+ p {
+   font-size: 10px;
+   line-height: 10px;
+ }
+
+}
+
+/* @media screen and (max-width: 820px) {
   h1 {
     font-size: 70px;
     line-height: 70px;
@@ -311,7 +332,7 @@ span{
   .home-footer {
     grid-template-columns: 1fr;
   }
-}
+} */
 
 #location-link {
   position: absolute;
