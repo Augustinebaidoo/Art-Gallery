@@ -348,9 +348,9 @@ span {
   text-decoration: none;
   position: absolute;
   margin-top: 0rem;
-  margin-left: 11rem;
+  margin-left: 10rem;
   height: 5rem;
-  width: 17rem;
+  width: 15rem;
   display: grid;
   transition: all 0.5s ease;
 }
@@ -362,7 +362,8 @@ span {
 
 .location a button:nth-child(2) {
   background-color: #151515;
-  font-size: 18px;
+  font-size: 13px;
+  font-weight: 700;
   grid-row: 1;
 }
 
@@ -387,39 +388,39 @@ span {
   background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
-  /* display: grid;
-  place-content: center; */
+  /* display: grid; */
+  /* place-content: center; */
 }
 
 .location-info {
   display: grid;
-  grid-template-columns: 2fr 3fr;
-  gap: 3rem;
-  padding: 3rem 5%;
+  grid-template-columns: repeat(2, 1fr);
   background-color: #151515;
   color: #FFFFFF;
+  padding: 5rem 10rem;
 }
 
-.location-info-div h3 {
+#location-address h3 {
   color: #D5966C;
+  margin-left: 0;
 }
 
 address {
-  margin: 3rem 0;
+  margin: 2rem 0;
 }
 
 .location-footer {
   display: grid;
   grid-template-columns: 2fr 3fr 1fr;
-  gap: 2rem;
   background-color: #D5966C;
-  padding: 3rem 5%;
+  padding: 4rem 5rem;
 }
 
-.location-footer-div {
+#location-icons {
+  margin: 0 5rem;
   display: flex;
-  justify-content: space-around;
-  /* align-items: center; */
+  justify-content: space-between;
+  gap: 1rem;
 }
 
 .location-footer-div svg :hover {
