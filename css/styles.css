@@ -195,13 +195,14 @@ span {
   font-size: 18px;
 }
 
-.icon :hover {
+.footer-div svg :hover {
   fill: #D5966C;
   transition: all 0.3s ease;
 }
 
-#icons {
+.footer-div {
   display: flex;
+  gap: 2rem;
   justify-content: space-around;
 }
 
@@ -349,7 +350,7 @@ span {
   margin-top: 0rem;
   margin-left: 11rem;
   height: 5rem;
-  width: 18rem;
+  width: 17rem;
   display: grid;
   transition: all 0.5s ease;
 }
@@ -373,12 +374,12 @@ span {
   background-color: #D5966C;
 }
 
-.location h1 {
+/* .location h1 {
   background: linear-gradient(to right, #FFFFFF 61%, #151515 39%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} */
 
 .map {
   background: url("/assets/desktop/image-map.png");
@@ -386,8 +387,8 @@ span {
   background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
-  display: grid;
-  place-content: center;
+  /* display: grid;
+  place-content: center; */
 }
 
 .location-info {
@@ -415,18 +416,15 @@ address {
   padding: 3rem 5%;
 }
 
-.location-footer-div:nth-child(3) {
+.location-footer-div {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  /* align-items: center; */
 }
 
-.location-footer-div:nth-child(3) svg {
-  transition: all 0.25s ease;
-}
-
-.location-footer-div:nth-child(3) svg:hover {
+.location-footer-div svg :hover {
   fill: #FFFFFF;
+  transition: all 0.3s ease;
 }
 
 @media screen and (max-width: 820px) {
