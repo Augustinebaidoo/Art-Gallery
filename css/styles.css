@@ -368,26 +368,28 @@ span {
   body {
     background-color: #FFFFFF;
   }
-
+  .home h1{
+    font-size: 60px;
+    line-height: 60px;
+  }
   .header-container {
     grid: none;
+    height: 38rem;
     display: block;
-    height: 44.09rem;
-  }
-
-  .home h1 {
-    font-size: 50px;
-    line-height: 50px;
   }
 
   #header-grid2 {
     display: block;
-    height: 20rem ;
+    height: 16rem;
+    background: url(/assets/mobile/image-hero.jpg);
+    background-position: center;
+      background-size: cover;
+    background-repeat: no-repeat;
   }
 
-#header-grid2 img {
-  height: 30rem;
-}
+  #header-grid2 img {
+    display: none;
+  }
 
 
   #header-grid4 {
@@ -414,19 +416,13 @@ span {
   }
 
   #top-one {
-    height: 15rem;
-    margin-top: 1rem 0rem;
+    margin: 1rem 0rem;
   }
 
   #top-two {
-    height: 15rem;
     margin-top: 1rem 0rem;
   }
 
-  .top-div img {
-    height: 15rem;
-
-  }
 
   .main-section-down {
     grid: none;
@@ -435,21 +431,11 @@ span {
   }
 
   #down-one {
-    height: 25rem;
     margin-bottom: 1rem;
-  }
-
-  #down-one img {
-    height: 25rem;
   }
 
   #down-two {
-    height: 15rem;
     margin-bottom: 1rem;
-  }
-
-  #down-two img {
-    height: 15rem;
   }
 
   #down-three {
@@ -486,8 +472,11 @@ span {
 
   #icons {
     display: flex;
-    justify-content: space-between;
-    margin-right: 13rem;
+    float: left;
+  }
+
+  .footer-div svg {
+    margin-right: 1rem;
   }
 }
 
